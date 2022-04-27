@@ -1,0 +1,21 @@
+#videoF{
+  background: rgb(255, 255, 255);
+  padding: 15px 10px;
+  margin-left: 17%;
+}
+#imgA{
+  width: 300px;
+  height: 500px;
+  border: 1px solid rgb(0, 247, 255);
+  background: rgb(255, 255, 255);
+  margin-left: 25%;
+  padding: 15px 10px;
+}
+#h1s{
+  width: 600px;
+  height: auto;
+
+  background: rgb(255, 255, 255);
+  margin-left: 15%;
+  padding: 15px 10px;
+}

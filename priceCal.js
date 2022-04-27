@@ -6,11 +6,11 @@ function priceCalculate() {
 	  evenprice = 91.25 ;
 	  total = evenprice * ticknum;
   }
-  if (eventId == 2){
+  else if (eventId == 2){
 	  evenprice = 79.88 ;
 	  total = evenprice * ticknum;
   }
-  if (eventId == 3){
+  else if (eventId == 3){
 	  evenprice = 83.12 ;
 	  total = evenprice * ticknum;
   }
