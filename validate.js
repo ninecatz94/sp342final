@@ -12,11 +12,13 @@ function checkNID() {
 
 function checkTicketNo() {
   let num = (document.getElementById("ticknum").value).trim();
-  if (isNaN(num)) {
-    return false;
-  } else {
+  if(num==1||num==2||num==3||num==4||num==5) {
 	return true;
   }
+  else{
+	 return false;
+  }
+  
 }
 
 function validateForm(){
