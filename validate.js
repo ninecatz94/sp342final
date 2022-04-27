@@ -1,9 +1,12 @@
 function checkNID() {
   let nid = (document.getElementById("nid").value).trim();
-  if (nid.length != 13) {
-    return false;
-  } else {
-	return true;
+  if (nid.length == 13 ) {
+	  if(!isNaN(nid)){
+		  return true;
+	  }
+  } 
+  else {
+	return false;
   }
 }
 
